@@ -1,0 +1,8 @@
+Linux OS Package Installations and Configurations
+Authors: Pranshu Gupta, Prashant Kumar
+-------------------------------------------------------------------------------
+
+Components
+----------
+install.sh is a shell script to install useful packages on a freshly installed 
+Linux OS.
