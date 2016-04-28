@@ -61,6 +61,10 @@
 			<div class="col-sm-4" style="background-color:rgb(240,240,240);padding:50px">
 				<h2 class="josephin"><b>App/Package</b></h2><hr>
 				<div id='git' class="row" style="background-color:rgb(220,220,220);padding:10px">
+					<h5>GIT</h5>
+				</div>
+                                <br>
+				<div id='git' class="row" style="background-color:rgb(220,220,220);padding:10px">
 					<h5>MULTIMEDIA</h5>
 				</div>
                                 <br>
@@ -95,116 +99,151 @@
 			<div class="col-sm-8" style="padding:50px">
 				<h2 class="josephin"><b>Installation Instructions</b></h2>
 				<hr>
-				<div class='row' id='git'>
-					<div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
-						<code class="prettyprint language-sh">
-							<br>sudo apt install git
-							<br>git config --global user.name "Pranshu Gupta"
-							<br>git config --global user.email "pranshug258@outlook.com"
-						</code>
-						<br><br>
-					</div>
-				</div>
-				<br>
-				<div class='row' id='themes'>
-					<div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
-						<code class="prettyprint language-sh">
-							<br>sudo apt install unity-tweak-tool
-							<br>sudo apt install gtk-theme-config
-							<br>sudo add-apt-repository ppa:numix/ppa
-							<br>sudo apt update
-							<br>sudo apt install numix-gtk-theme numix-icon-theme-circle
-							<br>sudo apt install numix-wallpaper-*							
-						</code>
-						<br><br>
-					</div>
-				</div>
-				<br>
-				<div class='row' id='shell'>
-					<div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
-						<code class="prettyprint language-sh">
-							<br>sudo apt install zsh
-							<br>sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-						</code>
-						<br><br>
-					</div>
-				</div>
-				<br>
-				<div class='row' id='spotify'>
-					<div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
-						<code class="prettyprint language-sh">
-							<br>sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
-							<br>echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
-							<br>sudo apt-get update && sudo apt-get install spotify-client		
-						</code>
-						<br><br>
-					</div>
-				</div>
-				<br>
-				<div class='row' id='vlc'>
-					<div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
-						<code class="prettyprint language-sh">
-							<br>sudo apt install vlc				
-						</code>
-						<br><br>
-					</div>
-				</div>
-				<br>
-				<div class='row' id='sublime-text'>
-					<div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
-						<code class="prettyprint language-sh">
-							<br>sudo add-apt-repository ppa:webupd8team/sublime-text-2
-							<br>sudo apt update
-							<br>sudo apt install sublime-text													
-						</code>
-						<br><br>
-					</div>
-				</div>
-				<br>
-				<div class='row' id='deluge'>
-					<div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
-						<code class="prettyprint language-sh">
-							<br>sudo apt install deluge					
-						</code>
-						<br><br>
-					</div>
-				</div>
-				<br>
-				<div class='row' id='gnuplot'>
-					<div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
-						<code class="prettyprint language-sh">
-							<br>sudo apt install gnuplot
-							<br>sudo apt install gnuplot-x11					
-						</code>
-						<br><br>
-					</div>
-				</div>
-				<br>
-				<div class='row' id='chrome'>
-					<div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
-						<code class="prettyprint language-sh">
-							<br>wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
-							<br>sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-							<br>sudo apt-get update 
-							<br>sudo apt install google-chrome-stable													
-						</code>
-						<br><br>
-					</div>
-				</div>
-				<br>
-				<div class='row' id='java'>
-					<div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
-						<code class="prettyprint language-sh">
-							<br>sudo apt-get install python-software-properties
-							<br>sudo add-apt-repository ppa:webupd8team/java
-							<br>sudo apt-get update
-							<br>sudo apt-get install oracle-java8-installer
-							<br>sudo update-alternatives --config java													
-						</code>
-						<br><br>
-					</div>
-				</div>
-				<br>
+                                
+                                <div id='GIT'>
+                                        <div class='row' id='git'>
+                                                <div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
+                                                        <code class="prettyprint language-sh">
+                                                                <br>sudo apt install git
+                                                                <br>git config --global user.name "Pranshu Gupta"
+                                                                <br>git config --global user.email "pranshug258@outlook.com"
+                                                        </code>
+                                                        <br><br>
+                                                </div>
+                                        </div>
+                                        <br>
+                                </div>
+
+
+                                <div id='MULTIMEDIA'>
+                                        <div class='row' id='vlc'>
+                                                <div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
+                                                        <code class="prettyprint language-sh">
+                                                                <br>sudo apt install vlc				
+                                                        </code>
+                                                        <br><br>
+                                                </div>
+                                        </div>
+                                        <br>
+                                        <div class='row' id='spotify'>
+                                                <div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
+                                                        <code class="prettyprint language-sh">
+                                                                <br>sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+                                                                <br>echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+                                                                <br>sudo apt-get update && sudo apt-get install spotify-client		
+                                                        </code>
+                                                        <br><br>
+                                                </div>
+                                        </div>
+                                        <br>
+                                </div>
+
+                                <div id='APPLICATIONS'>
+                                        <div class='row' id='chrome'>
+                                                <div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
+                                                        <code class="prettyprint language-sh">
+                                                                <br>wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+                                                                <br>sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+                                                                <br>sudo apt-get update 
+                                                                <br>sudo apt install google-chrome-stable													
+                                                        </code>
+                                                        <br><br>
+                                                </div>
+                                        </div>
+                                        <br>
+                                        <div class='row' id='deluge'>
+                                                <div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
+                                                        <code class="prettyprint language-sh">
+                                                                <br>sudo apt install deluge					
+                                                        </code>
+                                                        <br><br>
+                                                </div>
+                                        </div>
+                                        <br>
+
+                                </div>
+
+                                <div id='PROGRAMMING'>
+                                        <div class='row' id='sublime-text'>
+                                                <div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
+                                                        <code class="prettyprint language-sh">
+                                                                <br>sudo add-apt-repository ppa:webupd8team/sublime-text-2
+                                                                <br>sudo apt update
+                                                                <br>sudo apt install sublime-text													
+                                                        </code>
+                                                        <br><br>
+                                                </div>
+                                        </div>
+                                        <br>
+                                        <div class='row' id='java'>
+                                                <div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
+                                                        <code class="prettyprint language-sh">
+                                                                <br>sudo apt-get install python-software-properties
+                                                                <br>sudo add-apt-repository ppa:webupd8team/java
+                                                                <br>sudo apt-get update
+                                                                <br>sudo apt-get install oracle-java8-installer
+                                                                <br>sudo update-alternatives --config java													
+                                                        </code>
+                                                        <br><br>
+                                                </div>
+                                        </div>
+                                        <br>
+                                        <div class='row' id='gnuplot'>
+                                                <div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
+                                                        <code class="prettyprint language-sh">
+                                                                <br>sudo apt install gnuplot
+                                                                <br>sudo apt install gnuplot-x11					
+                                                        </code>
+                                                        <br><br>
+                                                </div>
+                                        </div>
+                                        <br>
+                                </div>
+
+                                <div id='SHELL'>
+                                        <div class='row' id='zsh'>
+                                                <div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
+                                                        <code class="prettyprint language-sh">
+                                                                <br>sudo apt install zsh
+                                                                <br>sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+                                                        </code>
+                                                        <br><br>
+                                                </div>
+                                        </div>
+                                        <br>
+
+                                </div>
+
+                                <div id='THEMES'>
+                                        <div class='row' id='themes'>
+                                                <div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
+                                                        <code class="prettyprint language-sh">
+                                                                <br>sudo apt install unity-tweak-tool
+                                                                <br>sudo apt install gtk-theme-config
+                                                                <br>sudo add-apt-repository ppa:numix/ppa
+                                                                <br>sudo apt update
+                                                                <br>sudo apt install numix-gtk-theme numix-icon-theme-circle
+                                                                <br>sudo apt install numix-wallpaper-*							
+                                                        </code>
+                                                        <br><br>
+                                                </div>
+                                        </div>
+                                        <br>
+
+                                </div>
+
+                                <div id='MACHINE'>
+
+                                </div>
+
+                                <div id='VISION'>
+
+                                </div>
+
+                                <div id='WEB'>
+
+                                </div>
+                                
 				<div class='row' id=''>
 					<div style='background-color:#f9f2f4;padding:10px;white-space:nowrap;overflow-x:auto'>
 						<code class="prettyprint language-sh">
